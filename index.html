@@ -9,10 +9,11 @@
 </head>
 
 <body>
+    <!------------------------------HEADER & NAV BAR------------------------------>
     <div id="header">
         <div class="container">
             <nav>
-                <img src="images/LOGO.png" class="logo">
+                <img src="images/LOGO.png"     class="logo">
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">About</a></li>
@@ -22,13 +23,64 @@
                 </ul>
             </nav>
             <div class="header-text">
-                <h1>Hii👋, I'm Venkat Rohith</h1>
+                <h1>Hii <span>👋</span> , I'm Venkat Rohith</h1>
                 <h3>Full Stack Developer</h3>
-                <h6>Your ideas, my code - turning imagination into innovation </h6>
+                <h6>Your ideas, my code - turning imagination into innovation...<span class="pulse">❤️</span></h6>
                 <a href="">download resume</a>
             </div>
         </div>
     </div>
+    <!------------------------------ABOUT PAGE------------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/ABOUTIMG-02.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <p>Dedicated and enthusiastic Computer Science degree holder with practical experience in JavaScript, Python, SQL, ReactJS, and Node.js. undefined Talented in managing and implementing full-stack applications with the mastery of both front-end and back-end tools. Good communication skills, flexibility when it comes to accepting new tasks, and the capacity to work in a team.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab"  id="Skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>Design web/app interfaces</li>
+                            <li><span>Web Development</span><br>web app development</li>
+                            <li><span>App Development</span><br>Building android/IOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2023-2024</span><br>Design web/app interfaces</li>
+                            <li><span>2023-2024</span><br>Design web/app interfaces</li>
+                            <li><span>2023-2024</span><br>Design web/app interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2018-2020</span><br>ENGINEERING IN CSE from SREE VENKATESWARA COLLAGE OF ENGINEERING</li>
+                            <li><span>2018-2020</span><br>INTERMEDIATE</li>
+                            <li><span>2018</span><br>SSC</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    
 </body>
+<script src="script.js" type="text/JavaScript"></script>
 
 </html>
