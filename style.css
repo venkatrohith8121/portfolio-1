@@ -369,7 +369,8 @@ nav ul li a:hover::after {
     margin-right: 15px;
     font-size: 25px;
 }
-.social-icons a{
+
+.social-icons a {
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
@@ -377,47 +378,89 @@ nav ul li a:hover::after {
     display: inline-block;
     transition: transform 0.5s;
 }
-.social-icons a:hover{
+
+.social-icons a:hover {
     color: #ff004f;
     transform: translateY(-5px);
 }
-.btn.btn2{
+
+.btn.btn2 {
     display: inline-block;
-    background: #ff004f;  
-} 
+    background: #ff004f;
+}
+
 .contact-right form {
     width: 100%;
 }
-form input,form textarea{
-    width: 100% ;
+
+form input,
+form textarea {
+    width: 100%;
     border: 0;
     outline: none;
-    background: #262626 ;
+    background: #262626;
     padding: 15px;
     margin: 15px 0;
     color: #fff;
     font-size: 18px;
     border-radius: 6px;
 }
-form .btn2{
+
+form .btn2 {
     padding: 14px 60px;
     font-size: 15px;
     margin-top: 20px;
     cursor: pointer;
 }
-.copyright{
+
+.copyright {
     width: 100%;
     text-align: center;
     padding: 25px 0;
-    background:#262626;
+    background: #262626;
     color: rgb(14, 165, 233);
     font-weight: 300;
     margin-top: 20px;
 }
-.copyright .small{
+
+.copyright .small {
     color: white;
     font-size: 9px;
     margin-top: 8px;
-    
 }
+
 /* <!--------------------------------CSS FOR SMALL SCREEN--------------------------------> */
+nav .fa-solid {
+    display: none;
+    font-size: 25px;
+}
+
+@media only screen and (max-width:600px) {
+    #header {
+        background-image: url(images/MOBILE_BG-01.png);
+    }
+
+    .header-text {
+        margin: 70% auto 30%; 
+        font-size: 16px;
+        height: 100%;
+
+    }
+
+    .header-text h1 {
+        font-size: 30px;
+    }
+
+    .header-text h3 {
+        font-size: 20px;
+    }
+
+    .header-text h6 {
+        font-size: 10px;
+    }
+    nav .fa-solid {
+        display: block;
+        font-size: 25px;
+    }
+
+}
