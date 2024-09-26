@@ -441,7 +441,8 @@ nav .fa-solid {
     }
 
     .header-text {
-        margin: 70% auto 30%; 
+        margin: 60% auto 30%; 
+        /* margin-top: auto; */
         font-size: 16px;
         height: 100%;
 
@@ -456,7 +457,7 @@ nav .fa-solid {
     }
 
     .header-text h6 {
-        font-size: 10px;
+        font-size: 12px;
     }
     nav .fa-solid {
         display: block;
