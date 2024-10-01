@@ -451,6 +451,9 @@ nav .fa-solid {
         background-image: url(images/MOBILE_BG-01.png);
         border-radius: 20px;
     }
+    #header .container{
+        padding:10px 10px; 
+    }
 
     .header-text {
         margin: 60% auto 30%;
