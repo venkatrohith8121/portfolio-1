@@ -449,6 +449,7 @@ nav .fa-solid {
     /* -------------------------Header session------------------------- */
     #header {
         background-image: url(images/MOBILE_BG-01.png);
+        border-radius: 20px;
     }
 
     .header-text {
